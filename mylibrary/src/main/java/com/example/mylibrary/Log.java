@@ -8,6 +8,7 @@ public class Log {
     public static void d(String args) {
 
         android.util.Log.d(TAG, "d:  "+args);
+        android.util.Log.d(TAG, "d:  "+args);
 
     }
 }

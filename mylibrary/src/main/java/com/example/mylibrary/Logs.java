@@ -1,8 +1,8 @@
 package com.example.mylibrary;
 
-public class Log {
+public class Logs {
 
-    public static final String TAG = Log.class.getName();
+    public static final String TAG = Logs.class.getName();
 
 
     public static void ShowLog(String args) {

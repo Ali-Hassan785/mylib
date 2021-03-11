@@ -5,10 +5,10 @@ public class Log {
     public static final String TAG = Log.class.getName();
 
 
-    public static void d(String args) {
+    public static void ShowLog(String args) {
 
-        android.util.Log.d(TAG, "d:  "+args);
-        android.util.Log.d(TAG, "d:  "+args);
+        android.util.Log.d(TAG, "d:  " + args);
+        android.util.Log.d(TAG, "d:  " + args);
 
     }
 }
